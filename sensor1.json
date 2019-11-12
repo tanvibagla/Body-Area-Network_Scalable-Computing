@@ -1,0 +1,155 @@
+{"sid": "sid", "timestamp": "Fri Nov  8 22:15:22 2019", "bpm": 69}
+{"sid": "sid", "timestamp": "Fri Nov  8 22:15:38 2019", "bpm": 65}
+{"sid": "sid", "timestamp": "Fri Nov  8 22:15:54 2019", "bpm": 93}
+{"sid": "sid", "timestamp": "Sat Nov  9 12:47:08 2019", "bpm": 88}
+{"sid": "sid", "timestamp": "Sat Nov  9 12:53:53 2019", "bpm": 92}
+{"sys": 102, "timestamp": "Mon Nov 11 17:53:43 2019", "dias": 71, "sid": "sys"}
+{"sys": 92, "timestamp": "Mon Nov 11 17:53:43 2019", "dias": 64, "sid": "\""}
+{"sys": 85, "timestamp": "Mon Nov 11 17:53:43 2019", "dias": 79, "sid": "s"}
+{"sys": 80, "timestamp": "Mon Nov 11 17:53:43 2019", "dias": 61, "sid": "y"}
+{"sys": 105, "timestamp": "Mon Nov 11 17:53:43 2019", "dias": 74, "sid": "s"}
+{"sys": 107, "timestamp": "Mon Nov 11 17:53:43 2019", "dias": 64, "sid": "\""}
+{"sys": 106, "timestamp": "Mon Nov 11 17:53:43 2019", "dias": 72, "sid": ":"}
+{"sys": 119, "timestamp": "Mon Nov 11 17:53:43 2019", "dias": 68, "sid": " "}
+{"sys": 95, "timestamp": "Mon Nov 11 17:53:43 2019", "dias": 61, "sid": "1"}
+{"sys": 88, "timestamp": "Mon Nov 11 17:53:43 2019", "dias": 70, "sid": "5"}
+{"sys": 85, "timestamp": "Mon Nov 11 21:03:42 2019", "dias": 79, "sid": "sys"}
+{"sys": 109, "timestamp": "Mon Nov 11 21:03:42 2019", "dias": 79, "sid": "\""}
+{"sys": 103, "timestamp": "Mon Nov 11 21:03:42 2019", "dias": 76, "sid": "s"}
+{"sys": 115, "timestamp": "Mon Nov 11 21:03:42 2019", "dias": 64, "sid": "y"}
+{"sys": 91, "timestamp": "Mon Nov 11 21:03:42 2019", "dias": 64, "sid": "s"}
+{"sys": 88, "timestamp": "Mon Nov 11 21:03:42 2019", "dias": 69, "sid": "\""}
+{"sys": 83, "timestamp": "Mon Nov 11 21:03:42 2019", "dias": 64, "sid": ":"}
+{"sys": 82, "timestamp": "Mon Nov 11 21:03:42 2019", "dias": 66, "sid": " "}
+{"sys": 106, "timestamp": "Mon Nov 11 21:03:42 2019", "dias": 61, "sid": "8"}
+{"sys": 120, "timestamp": "Mon Nov 11 21:03:42 2019", "dias": 80, "sid": "0"}
+{"sys": 104, "timestamp": "Mon Nov 11 21:06:18 2019", "dias": 70, "sid": "sys"}
+{"sys": 101, "timestamp": "Mon Nov 11 21:06:18 2019", "dias": 76, "sid": "\""}
+{"sys": 99, "timestamp": "Mon Nov 11 21:06:18 2019", "dias": 68, "sid": "s"}
+{"sys": 111, "timestamp": "Mon Nov 11 21:06:18 2019", "dias": 80, "sid": "y"}
+{"sys": 105, "timestamp": "Mon Nov 11 21:06:18 2019", "dias": 78, "sid": "s"}
+{"sys": 114, "timestamp": "Mon Nov 11 21:06:18 2019", "dias": 64, "sid": "\""}
+{"sys": 110, "timestamp": "Mon Nov 11 21:06:18 2019", "dias": 75, "sid": ":"}
+{"sys": 100, "timestamp": "Mon Nov 11 21:06:18 2019", "dias": 64, "sid": " "}
+{"sys": 83, "timestamp": "Mon Nov 11 21:06:18 2019", "dias": 67, "sid": "1"}
+{"sys": 100, "timestamp": "Mon Nov 11 21:06:18 2019", "dias": 70, "sid": "3"}
+{"sys": 105, "timestamp": "Mon Nov 11 21:06:36 2019", "dias": 65, "sid": "Heart Rate"}
+{"sys": 114, "timestamp": "Mon Nov 11 21:06:36 2019", "dias": 61, "sid": "Heart Rate"}
+{"sys": 92, "timestamp": "Mon Nov 11 21:06:36 2019", "dias": 68, "sid": "Heart Rate"}
+{"sys": 91, "timestamp": "Mon Nov 11 21:06:36 2019", "dias": 66, "sid": "Heart Rate"}
+{"sys": 83, "timestamp": "Mon Nov 11 21:06:36 2019", "dias": 69, "sid": "Heart Rate"}
+{"sys": 108, "timestamp": "Mon Nov 11 21:06:36 2019", "dias": 78, "sid": "Heart Rate"}
+{"sys": 106, "timestamp": "Mon Nov 11 21:06:36 2019", "dias": 62, "sid": "Heart Rate"}
+{"sys": 105, "timestamp": "Mon Nov 11 21:06:36 2019", "dias": 68, "sid": "Heart Rate"}
+{"sys": 91, "timestamp": "Mon Nov 11 21:06:36 2019", "dias": 67, "sid": "Heart Rate"}
+{"sys": 98, "timestamp": "Mon Nov 11 21:06:36 2019", "dias": 71, "sid": "Heart Rate"}
+{"sys": 115, "timestamp": "Mon Nov 11 21:07:40 2019", "dias": 70, "sid": "Blood Pressure"}
+{"sys": 101, "timestamp": "Mon Nov 11 21:07:40 2019", "dias": 72, "sid": "Blood Pressure"}
+{"sys": 116, "timestamp": "Mon Nov 11 21:07:40 2019", "dias": 72, "sid": "Blood Pressure"}
+{"sys": 106, "timestamp": "Mon Nov 11 21:07:40 2019", "dias": 73, "sid": "Blood Pressure"}
+{"sys": 90, "timestamp": "Mon Nov 11 21:07:40 2019", "dias": 63, "sid": "Blood Pressure"}
+{"sys": 87, "timestamp": "Mon Nov 11 21:07:40 2019", "dias": 69, "sid": "Blood Pressure"}
+{"sys": 98, "timestamp": "Mon Nov 11 21:07:40 2019", "dias": 79, "sid": "Blood Pressure"}
+{"sys": 100, "timestamp": "Mon Nov 11 21:07:40 2019", "dias": 66, "sid": "Blood Pressure"}
+{"sys": 85, "timestamp": "Mon Nov 11 21:07:40 2019", "dias": 60, "sid": "Blood Pressure"}
+{"sys": 93, "timestamp": "Mon Nov 11 21:07:40 2019", "dias": 78, "sid": "Blood Pressure"}
+{"sys": 118, "timestamp": "Mon Nov 11 21:18:25 2019", "dias": 65, "sid": "Blood Pressure"}
+{"sys": 100, "timestamp": "Mon Nov 11 21:18:25 2019", "dias": 63, "sid": "Blood Pressure"}
+{"sys": 94, "timestamp": "Mon Nov 11 21:18:25 2019", "dias": 71, "sid": "Blood Pressure"}
+{"sys": 118, "timestamp": "Mon Nov 11 21:18:25 2019", "dias": 76, "sid": "Blood Pressure"}
+{"sys": 100, "timestamp": "Mon Nov 11 21:18:25 2019", "dias": 78, "sid": "Blood Pressure"}
+{"sys": 117, "timestamp": "Mon Nov 11 21:18:25 2019", "dias": 62, "sid": "Blood Pressure"}
+{"sys": 112, "timestamp": "Mon Nov 11 21:18:25 2019", "dias": 77, "sid": "Blood Pressure"}
+{"sys": 119, "timestamp": "Mon Nov 11 21:18:25 2019", "dias": 77, "sid": "Blood Pressure"}
+{"sys": 95, "timestamp": "Mon Nov 11 21:18:25 2019", "dias": 68, "sid": "Blood Pressure"}
+{"sys": 96, "timestamp": "Mon Nov 11 21:18:25 2019", "dias": 80, "sid": "Blood Pressure"}
+{"sys": 120, "timestamp": "Mon Nov 11 21:18:42 2019", "dias": 70, "sid": "Blood Pressure"}
+{"sys": 80, "timestamp": "Mon Nov 11 21:18:42 2019", "dias": 76, "sid": "Blood Pressure"}
+{"sys": 97, "timestamp": "Mon Nov 11 21:18:42 2019", "dias": 78, "sid": "Blood Pressure"}
+{"sys": 89, "timestamp": "Mon Nov 11 21:18:42 2019", "dias": 60, "sid": "Blood Pressure"}
+{"sys": 92, "timestamp": "Mon Nov 11 21:18:42 2019", "dias": 79, "sid": "Blood Pressure"}
+{"sys": 93, "timestamp": "Mon Nov 11 21:18:42 2019", "dias": 73, "sid": "Blood Pressure"}
+{"sys": 93, "timestamp": "Mon Nov 11 21:18:42 2019", "dias": 66, "sid": "Blood Pressure"}
+{"sys": 113, "timestamp": "Mon Nov 11 21:18:42 2019", "dias": 61, "sid": "Blood Pressure"}
+{"sys": 111, "timestamp": "Mon Nov 11 21:18:42 2019", "dias": 74, "sid": "Blood Pressure"}
+{"sys": 104, "timestamp": "Mon Nov 11 21:18:42 2019", "dias": 66, "sid": "Blood Pressure"}
+{"sys": 101, "timestamp": "Mon Nov 11 21:19:19 2019", "dias": 71, "sid": "Blood Pressure"}
+{"sys": 104, "timestamp": "Mon Nov 11 21:19:19 2019", "dias": 74, "sid": "Blood Pressure"}
+{"sys": 118, "timestamp": "Mon Nov 11 21:19:19 2019", "dias": 69, "sid": "Blood Pressure"}
+{"sys": 95, "timestamp": "Mon Nov 11 21:19:19 2019", "dias": 78, "sid": "Blood Pressure"}
+{"sys": 86, "timestamp": "Mon Nov 11 21:19:19 2019", "dias": 69, "sid": "Blood Pressure"}
+{"sys": 90, "timestamp": "Mon Nov 11 21:19:19 2019", "dias": 79, "sid": "Blood Pressure"}
+{"sys": 98, "timestamp": "Mon Nov 11 21:19:19 2019", "dias": 66, "sid": "Blood Pressure"}
+{"sys": 80, "timestamp": "Mon Nov 11 21:19:19 2019", "dias": 67, "sid": "Blood Pressure"}
+{"sys": 108, "timestamp": "Mon Nov 11 21:19:19 2019", "dias": 69, "sid": "Blood Pressure"}
+{"sys": 119, "timestamp": "Mon Nov 11 21:19:19 2019", "dias": 62, "sid": "Blood Pressure"}
+{"sys": 88, "timestamp": "Mon Nov 11 21:19:57 2019", "dias": 69, "sid": "Blood Pressure"}
+{"sys": 106, "timestamp": "Mon Nov 11 21:19:57 2019", "dias": 64, "sid": "Blood Pressure"}
+{"sys": 94, "timestamp": "Mon Nov 11 21:19:57 2019", "dias": 73, "sid": "Blood Pressure"}
+{"sys": 102, "timestamp": "Mon Nov 11 21:19:57 2019", "dias": 60, "sid": "Blood Pressure"}
+{"sys": 97, "timestamp": "Mon Nov 11 21:19:57 2019", "dias": 79, "sid": "Blood Pressure"}
+{"sys": 104, "timestamp": "Mon Nov 11 21:19:57 2019", "dias": 65, "sid": "Blood Pressure"}
+{"sys": 106, "timestamp": "Mon Nov 11 21:19:57 2019", "dias": 66, "sid": "Blood Pressure"}
+{"sys": 106, "timestamp": "Mon Nov 11 21:19:57 2019", "dias": 65, "sid": "Blood Pressure"}
+{"sys": 94, "timestamp": "Mon Nov 11 21:19:57 2019", "dias": 62, "sid": "Blood Pressure"}
+{"sys": 110, "timestamp": "Mon Nov 11 21:19:57 2019", "dias": 62, "sid": "Blood Pressure"}
+{"sys": 87, "timestamp": "Mon Nov 11 21:21:54 2019", "dias": 60, "sid": "sys"}
+{"sys": 97, "timestamp": "Mon Nov 11 21:21:54 2019", "dias": 63, "sid": "\""}
+{"sys": 112, "timestamp": "Mon Nov 11 21:21:54 2019", "dias": 71, "sid": "s"}
+{"sys": 113, "timestamp": "Mon Nov 11 21:21:54 2019", "dias": 66, "sid": "y"}
+{"sys": 85, "timestamp": "Mon Nov 11 21:21:54 2019", "dias": 75, "sid": "s"}
+{"sys": 88, "timestamp": "Mon Nov 11 21:21:54 2019", "dias": 79, "sid": "\""}
+{"sys": 90, "timestamp": "Mon Nov 11 21:21:54 2019", "dias": 72, "sid": ":"}
+{"sys": 94, "timestamp": "Mon Nov 11 21:21:54 2019", "dias": 70, "sid": " "}
+{"sys": 114, "timestamp": "Mon Nov 11 21:21:54 2019", "dias": 71, "sid": "9"}
+{"sys": 118, "timestamp": "Mon Nov 11 21:21:54 2019", "dias": 75, "sid": "1"}
+{"sys": 101, "timestamp": "Mon Nov 11 21:22:04 2019", "dias": 65, "sid": "sys"}
+{"sys": 81, "timestamp": "Mon Nov 11 21:22:04 2019", "dias": 68, "sid": "\""}
+{"sys": 115, "timestamp": "Mon Nov 11 21:22:04 2019", "dias": 68, "sid": "s"}
+{"sys": 80, "timestamp": "Mon Nov 11 21:22:04 2019", "dias": 75, "sid": "y"}
+{"sys": 120, "timestamp": "Mon Nov 11 21:22:04 2019", "dias": 75, "sid": "s"}
+{"sys": 110, "timestamp": "Mon Nov 11 21:22:04 2019", "dias": 61, "sid": "\""}
+{"sys": 102, "timestamp": "Mon Nov 11 21:22:04 2019", "dias": 61, "sid": ":"}
+{"sys": 110, "timestamp": "Mon Nov 11 21:22:04 2019", "dias": 75, "sid": " "}
+{"sys": 86, "timestamp": "Mon Nov 11 21:22:04 2019", "dias": 67, "sid": "1"}
+{"sys": 82, "timestamp": "Mon Nov 11 21:22:04 2019", "dias": 60, "sid": "6"}
+{"timestamp": "Mon Nov 11 21:29:06 2019", "sys": 110, "systolic": null, "sid": "Blood Pressure", "dias": 65, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:06 2019", "sys": 109, "systolic": null, "sid": "Blood Pressure", "dias": 77, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:06 2019", "sys": 119, "systolic": null, "sid": "Blood Pressure", "dias": 71, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:06 2019", "sys": 100, "systolic": null, "sid": "Blood Pressure", "dias": 80, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:06 2019", "sys": 86, "systolic": null, "sid": "Blood Pressure", "dias": 80, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:06 2019", "sys": 105, "systolic": null, "sid": "Blood Pressure", "dias": 76, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:06 2019", "sys": 104, "systolic": null, "sid": "Blood Pressure", "dias": 72, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:06 2019", "sys": 97, "systolic": null, "sid": "Blood Pressure", "dias": 69, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:06 2019", "sys": 116, "systolic": null, "sid": "Blood Pressure", "dias": 62, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:06 2019", "sys": 105, "systolic": null, "sid": "Blood Pressure", "dias": 60, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:31 2019", "sys": 108, "systolic": null, "sid": "Blood Pressure", "dias": 72, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:31 2019", "sys": 94, "systolic": null, "sid": "Blood Pressure", "dias": 77, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:31 2019", "sys": 118, "systolic": null, "sid": "Blood Pressure", "dias": 73, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:31 2019", "sys": 119, "systolic": null, "sid": "Blood Pressure", "dias": 65, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:31 2019", "sys": 92, "systolic": null, "sid": "Blood Pressure", "dias": 73, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:31 2019", "sys": 106, "systolic": null, "sid": "Blood Pressure", "dias": 72, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:31 2019", "sys": 102, "systolic": null, "sid": "Blood Pressure", "dias": 77, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:31 2019", "sys": 109, "systolic": null, "sid": "Blood Pressure", "dias": 66, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:31 2019", "sys": 104, "systolic": null, "sid": "Blood Pressure", "dias": 73, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:31 2019", "sys": 85, "systolic": null, "sid": "Blood Pressure", "dias": 61, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:40 2019", "sys": 98, "systolic": null, "sid": "Blood Pressure", "dias": 62, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:40 2019", "sys": 86, "systolic": null, "sid": "Blood Pressure", "dias": 66, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:40 2019", "sys": 99, "systolic": null, "sid": "Blood Pressure", "dias": 66, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:40 2019", "sys": 83, "systolic": null, "sid": "Blood Pressure", "dias": 80, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:40 2019", "sys": 91, "systolic": null, "sid": "Blood Pressure", "dias": 75, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:40 2019", "sys": 85, "systolic": null, "sid": "Blood Pressure", "dias": 63, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:40 2019", "sys": 109, "systolic": null, "sid": "Blood Pressure", "dias": 66, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:40 2019", "sys": 119, "systolic": null, "sid": "Blood Pressure", "dias": 73, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:40 2019", "sys": 80, "systolic": null, "sid": "Blood Pressure", "dias": 78, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:29:40 2019", "sys": 87, "systolic": null, "sid": "Blood Pressure", "dias": 64, "diastolic": null}
+{"timestamp": "Mon Nov 11 21:30:10 2019", "sid": "Blood Pressure", "systolic": 114, "diastolic": 71}
+{"timestamp": "Mon Nov 11 21:30:10 2019", "sid": "Blood Pressure", "systolic": 90, "diastolic": 67}
+{"timestamp": "Mon Nov 11 21:30:10 2019", "sid": "Blood Pressure", "systolic": 89, "diastolic": 65}
+{"timestamp": "Mon Nov 11 21:30:10 2019", "sid": "Blood Pressure", "systolic": 98, "diastolic": 70}
+{"timestamp": "Mon Nov 11 21:30:10 2019", "sid": "Blood Pressure", "systolic": 99, "diastolic": 66}
+{"timestamp": "Mon Nov 11 21:30:10 2019", "sid": "Blood Pressure", "systolic": 111, "diastolic": 75}
+{"timestamp": "Mon Nov 11 21:30:10 2019", "sid": "Blood Pressure", "systolic": 97, "diastolic": 71}
+{"timestamp": "Mon Nov 11 21:30:10 2019", "sid": "Blood Pressure", "systolic": 90, "diastolic": 66}
+{"timestamp": "Mon Nov 11 21:30:10 2019", "sid": "Blood Pressure", "systolic": 88, "diastolic": 79}
+{"timestamp": "Mon Nov 11 21:30:10 2019", "sid": "Blood Pressure", "systolic": 120, "diastolic": 62}
