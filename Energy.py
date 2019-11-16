@@ -5,13 +5,13 @@ Created on Thu Nov 14 16:16:50 2019
 @author: yesh2
 """
 
-Battery_Status={0:'Charging',1:'On Battery',2:'Dead'}
+Power_Type={0:'Charging',1:'On Battery',2:'Dead'}
 
 class Battery(object):
     P_TX = 0.084  # Watts
     P_RX = 0.073  # Watts
 
-    E_INIT = 99.0  # Joules
+    E_INIT = 100.0  # Joules
     E_MIN = 0.5   # Joules  to operate
 
     # charging  rate
@@ -23,10 +23,10 @@ class Battery(object):
     # transmission rate
     TR_RATE = 250   # kbps
     
-    def __init__(self,battery_status=1,sensor_type,**kwargs):
+    def __init__(self,sensor_type,power_type=1,**kwargs):
         self.type = sensor_type or 'H'
-        self.battery = battery_status
-        self.energy_consume = 0
+        self.power_type = power_type
+        # self.energy_consume = 0
         self.energy = self.E_INIT
         
     
@@ -34,20 +34,20 @@ class Battery(object):
         # power consumption = Tx power * Tx time
         tx_time = (packet_size * 8.0 / self.TR_RATE / 1024.0)
         energy_dec = self.P_TX * tx_time
-        if self.battery != 0:
+        if self.power_type != 0:
             self.energy -= energy_dec
-        self.energy_consume += energy_dec
-        return energy_dec, tx_time
+        # self.energy_consume += energy_dec
+        return self.energy
     
     def decrease_receive_energy(self, packet_size):
         # power consumption = Rx power * Tx time
         tx_time = (packet_size * 8.0 / self.TR_RATE / 1024.0)
         energy_dec = self.P_RX * tx_time
-        if self.battery != 0:
+        if self.power_type != 0:
             self.energy -= energy_dec
-        self.energy_consume += energy_dec
+        # self.energy_consume += energy_dec
         
-        return energy_dec, tx_time
+        return self.energy
     
     def decrease_energy(self, discharging_rate=None, discharging_time=1):
         energy_dec = (discharging_rate or self.P_IDLE) * discharging_time
@@ -66,7 +66,7 @@ class Battery(object):
             return "Energy low!! charge the sensor"
         
     def charging(self):
-        if self.battery ==0 and self.energy<99:
+        if self.power_type ==0 and self.energy<99:
             self.energy += self.P_CHARGING
     
     
