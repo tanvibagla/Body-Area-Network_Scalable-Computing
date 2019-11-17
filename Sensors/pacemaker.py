@@ -4,8 +4,9 @@ import json
 import sys
 import Sender.sender as sdr
 
-from threading import Timer
+import threading
 from Sensors.sensor import Sensor
+from Const.config import PACEMAKER_PORT
 
 class Pacemaker(Sensor):
     def __init__(self, power, duty_cycle, data, message_topic, frequency_of_message):
@@ -24,13 +25,8 @@ class Pacemaker(Sensor):
     def send_data(self):
         self.data = self.sensor_data()
         # send data
-        sdr.send(self.data)
+        sdr.send(self.data, PACEMAKER_PORT)
         self.power = self.battery.decrease_trans_energy(sys.getsizeof(self.data))
         print("size: ", sys.getsizeof(self.data))
         print("energy level: ", self.power)
-
-
-if __name__ == '__main__':
-    pm = Pacemaker(100, 999999, {}, 'HeartRate', 1)
-    pm.send_data()
 

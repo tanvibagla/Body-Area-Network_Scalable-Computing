@@ -24,7 +24,7 @@ class Sensor:
 
     def send_data(self, record):
         self.sensor_data(record)
-        self.power = self.power_decay() - DECAY_WHILE_DATA_TRANSFER * self.power
+        # self.power = self.power_decay() - DECAY_WHILE_DATA_TRANSFER * self.power
 
     def send_data(self):
         pass

@@ -6,6 +6,7 @@ import Sender.sender as sdr
 
 from threading import Timer
 from Sensors.sensor import Sensor
+from Const.config import TEMP_PORT, PACEMAKER_PORT
 
 class TemperatureSensor(Sensor):
     def __init__(self, power, duty_cycle, data, message_topic, frequency_of_message):
@@ -21,13 +22,9 @@ class TemperatureSensor(Sensor):
     def send_data(self):
         self.data = self.sensor_data()
         # send data
-        sdr.send(self.data)
+        sdr.send(self.data, PACEMAKER_PORT)
         self.power = self.battery.decrease_trans_energy(sys.getsizeof(self.data))
         print("size: ", sys.getsizeof(self.data))
         print("energy level: ", self.power)
 
-
-if __name__ == '__main__':
-    tempsensor = TemperatureSensor(100, 30, {}, 'BodyTemperature', 1)
-    tempsensor.send_data()
 
