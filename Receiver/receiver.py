@@ -4,7 +4,7 @@ Created on Tue Nov 12 17:14:04 2019
 
 @author: yesh2
 """
-
+import json
 import socket                   # Import socket module
 #netstat -ano| find portnum #output port status with PID
 #taskkill /F /PID <process ID>
@@ -16,26 +16,29 @@ s.listen(5)                     # Now wait for client connection.
 
 print('Server listening....')
 
+filename = None
+
 while True:
     conn, addr = s.accept()     # Establish connection with client.
     print('Got connection from ', addr)
     data=conn.recv(1024)
-    #conn.send('Thank you')
-    # print("data: ", data.decode())
-    #conn.close()
-
-    with open('Outfile_name.json', '+a') as f:
+    data = data.decode()
+    data = json.loads(data)
+    if data['sid'] == 'HeartRate':
+        filename = 'Pacemaker_Data.json'
+    elif data['sid'] == 'BodyTemperature':
+        filename = 'BodyTemperature_data.json'
+    print('data type: ', type(data))
+    with open(filename, '+a') as f:
         print('file opened')
-        # while True:
         print('receiving data...')
-        print('type of data: ', type(data))
-        # data = conn.recv(1024)
-        data=data.decode()
-        print('data=', (data))
+
+        print('data["sid"]: ', data['sid'])
+        print('data=', data)
         if not data:
             break
         # write data to a file
-        f.write('\n'+data)
+        f.write('\n'+json.dumps(data))
     f.close()
 
 

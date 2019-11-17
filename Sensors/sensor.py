@@ -2,7 +2,7 @@ import time
 import logging
 
 from Energy import Battery
-from Const.config import DECAY_RATE, DECAY_WHILE_DATA_TRANSFER
+# from Const.config import DECAY_RATE, DECAY_WHILE_DATA_TRANSFER
 
 
 class Sensor:
@@ -15,7 +15,6 @@ class Sensor:
         self.battery = Battery(sensor_type='H')
 
     def sensor_data(self, record):
-        self.battery.decrease_trans_energy()
         pass
 
     def power_decay(self, data_size):

@@ -26,7 +26,7 @@ class Battery(object):
     def __init__(self,sensor_type,power_type=1,**kwargs):
         self.type = sensor_type or 'H'
         self.power_type = power_type
-        # self.energy_consume = 0
+        self.energy_consume = 0
         self.energy = self.E_INIT
         
     
@@ -36,7 +36,7 @@ class Battery(object):
         energy_dec = self.P_TX * tx_time
         if self.power_type != 0:
             self.energy -= energy_dec
-        # self.energy_consume += energy_dec
+        self.energy_consume += energy_dec
         return self.energy
     
     def decrease_receive_energy(self, packet_size):
