@@ -6,7 +6,7 @@ import Sender.sender as sdr
 
 import threading
 from Sensors.sensor import Sensor
-from Const.config import OXYLEVEL_PORT
+from Const.config import PORT
 
 class OxySensor(Sensor):
     def __init__(self, power, duty_cycle, data, message_topic, frequency_of_message):
@@ -22,7 +22,7 @@ class OxySensor(Sensor):
     def send_data(self):
         self.data = self.sensor_data()
         # send data
-        sdr.send(self.data, OXYLEVEL_PORT)
+        sdr.send(self.data, PORT)
         self.power = self.battery.decrease_trans_energy(sys.getsizeof(self.data))
         print("size: ", sys.getsizeof(self.data))
         print("energy level: ", self.power)
