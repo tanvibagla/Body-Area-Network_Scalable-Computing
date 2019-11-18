@@ -9,7 +9,7 @@ import socket                   # Import socket module
 #netstat -ano| find portnum #output port status with PID
 #taskkill /F /PID <process ID>
 import threading
-from Const.config import PACEMAKER_PORT, TEMP_PORT
+from Const.config import PACEMAKER_PORT, TEMP_PORT, INSULIN_PORT,OXYLEVEL_PORT
 
 def make_connection(port):
     s = socket.socket()  # Create a socket object
@@ -44,6 +44,10 @@ def receive_data(port):
             filename = 'Pacemaker_Data.json'
         elif data['sid'] == 'BodyTemperature':
             filename = 'BodyTemperature_data.json'
+        elif data['sid'] == 'InsulinLevel':
+            filename = 'InsulinLevel_data.json'
+        elif data['sid'] == 'Oxygenlevel':
+            filename = 'OxygenLevel_data.json'
         print('data type: ', type(data))
         with open(filename, '+a') as f:
             print('file opened')
