@@ -13,11 +13,11 @@ class LacticSensor(Sensor):
         Sensor.__init__(self, power, duty_cycle, data, message_topic, frequency_of_message)
 
     def sensor_data(self):
-        record_data = {'sid': self.message_topic, 'timestamp': time.ctime(time.time()), 'oxygen': random.randint(80, 100),
+        record_data = {'sid': self.message_topic, 'timestamp': time.ctime(time.time()), 'lacticlevel': random.randint(80, 100),
                        'battery': self.power
                        }
         record = json.dumps(record_data)
-        print("Oxygen level data generated")
+        print("Lactic level data generated")
         print("Data:", record)
         return record
 

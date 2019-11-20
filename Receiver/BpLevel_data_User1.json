@@ -1,15 +1,2 @@
 
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 13:28:24 2019", "BP": 80, "battery": 99.998645625}
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 13:29:14 2019", "BP": 105, "battery": 99.99727024999999}
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 13:30:04 2019", "BP": 101, "battery": 99.99587912499999}
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 13:30:54 2019", "BP": 89, "battery": 99.99448799999999}
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 13:31:44 2019", "BP": 113, "battery": 99.99309949999999}
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 13:32:34 2019", "BP": 80, "battery": 99.99170837499999}
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 13:33:24 2019", "BP": 84, "battery": 99.99031987499998}
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 13:34:14 2019", "BP": 81, "battery": 99.98893137499998}
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 13:59:56 2019", "BP": 100, "battery": 99.98754287499997}
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 14:00:46 2019", "BP": 115, "battery": 99.98615174999998}
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 14:01:36 2019", "BP": 103, "battery": 99.98476062499998}
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 14:02:26 2019", "BP": 86, "battery": 99.98336949999998}
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 14:03:16 2019", "BP": 105, "battery": 99.98198099999998}
-{"sid": "BPlevel", "timestamp": "Wed Nov 20 14:04:06 2019", "BP": 114, "battery": 99.98058987499998}
+{"sid": "BPlevel", "timestamp": "Wed Nov 20 17:00:31 2019", "BP": 114, "battery": 100}

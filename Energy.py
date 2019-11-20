@@ -11,11 +11,11 @@ class Battery(object):
     P_TX = 0.084  # Watts
     P_RX = 0.073  # Watts
 
-    E_INIT = 100.0  # Joules
+    E_INIT = 0.49  # Joules
     E_MIN = 0.5   # Joules  to operate
 
     # charging  rate
-    P_CHARGING = 0.0005  # Watts
+    P_CHARGING = 0.005  # Watts
 
     # idle discharge rate
     P_IDLE = 0.001  # Watts
@@ -60,16 +60,24 @@ class Battery(object):
         if self.energy > self.E_MIN:
             print('Has battery')
             return True
-        print("Doesn't have battery")
-        return False
+        else:
+            print("Doesn't have battery")
+            self.power_type = 0
+            return False
     
     def alert_sensor(self):
         if self.energy < 20:
             return "Energy low!! charge the sensor"
         
     def charging(self):
-        if self.power_type ==0 and self.energy<99:
+        print('power type: ', self.power_type)
+        if self.power_type == 0 and self.energy<0.505:
             self.energy += self.P_CHARGING
+            print('energy: ', self.energy)
+            return self.energy
+        else:
+            self.power_type = 1
+            return self.energy
     
     
     

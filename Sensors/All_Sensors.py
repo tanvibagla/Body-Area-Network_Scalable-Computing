@@ -15,10 +15,7 @@ def pm_send_data():
     threading.Timer(pm.duty_cycle, pm_send_data).start()
     threading.Timer(1, pm.battery_decay_while_idle).start()
     threading.Timer(1, pm.battery.have_energy).start()
-    if(pm.power < pm.battery.E_MIN):
-        pm.battery.charging()
-        threading.Timer(1, pm.battery.charging).start()
-    print("battery while charging: ", pm.power)
+    threading.Timer(1, pm.battery.charging).start()
 
 def temp_send_data():
     print('TEMPERATURE_SENSOR SENDING DATA')
@@ -26,6 +23,7 @@ def temp_send_data():
     threading.Timer(tmp.duty_cycle, temp_send_data).start()
     threading.Timer(1, tmp.battery_decay_while_idle).start()
     threading.Timer(1, tmp.battery.have_energy).start()
+    threading.Timer(1, tmp.battery.charging).start()
 
 def ins_send_data():
     print('INSULIN_LEVEL_SENSOR SENDING DATA')
@@ -33,6 +31,7 @@ def ins_send_data():
     threading.Timer(ins.duty_cycle, ins_send_data).start()
     threading.Timer(1, ins.battery_decay_while_idle).start()
     threading.Timer(1, ins.battery.have_energy).start()
+    threading.Timer(1, ins.battery.charging).start()
 
 def oxy_send_data():
     print('OXYGEN_LEVEL_SENSOR SENDING DATA')
@@ -40,6 +39,7 @@ def oxy_send_data():
     threading.Timer(oxy.duty_cycle, oxy_send_data).start()
     threading.Timer(1, oxy.battery_decay_while_idle).start()
     threading.Timer(1, oxy.battery.have_energy).start()
+    threading.Timer(1, oxy.battery.charging).start()
 
 def bp_send_data():
     print('BP_LEVEL_SENSOR SENDING DATA')
@@ -47,6 +47,7 @@ def bp_send_data():
     threading.Timer(bp.duty_cycle, bp_send_data).start()
     threading.Timer(1, bp.battery_decay_while_idle).start()
     threading.Timer(1, bp.battery.have_energy).start()
+    threading.Timer(1, bp.battery.charging).start()
 
 def ecg_send_data():
     print('ECG_LEVEL_SENSOR SENDING DATA')
@@ -54,6 +55,7 @@ def ecg_send_data():
     threading.Timer(ecg.duty_cycle, ecg_send_data).start()
     threading.Timer(1, ecg.battery_decay_while_idle).start()
     threading.Timer(1, ecg.battery.have_energy).start()
+    threading.Timer(1, ecg.battery.charging).start()
 
 def lactic_send_data():
     print('LACTIC_LEVEL_SENSOR SENDING DATA')
@@ -61,7 +63,7 @@ def lactic_send_data():
     threading.Timer(lactic.duty_cycle, lactic_send_data).start()
     threading.Timer(1, lactic.battery_decay_while_idle).start()
     threading.Timer(1, lactic.battery.have_energy).start()
-
+    threading.Timer(1, lactic.battery.charging).start()
 
 pm = Pacemaker(100, 10, {}, 'HeartRate', 1)
 tmp = TemperatureSensor(100, 20, {}, 'BodyTemperature', 1)

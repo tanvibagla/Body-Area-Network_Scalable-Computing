@@ -1,10 +1,2 @@
 
-{"sid": "Ecglevel", "timestamp": "Wed Nov 20 13:28:34 2019", "ecg": 151, "battery": 99.998640375}
-{"sid": "Ecglevel", "timestamp": "Wed Nov 20 13:29:34 2019", "ecg": 141, "battery": 99.99725712499999}
-{"sid": "Ecglevel", "timestamp": "Wed Nov 20 13:30:34 2019", "ecg": 198, "battery": 99.99586074999999}
-{"sid": "Ecglevel", "timestamp": "Wed Nov 20 13:31:34 2019", "ecg": 191, "battery": 99.99446437499999}
-{"sid": "Ecglevel", "timestamp": "Wed Nov 20 13:33:34 2019", "ecg": 178, "battery": 99.99169262499998}
-{"sid": "Ecglevel", "timestamp": "Wed Nov 20 13:34:34 2019", "ecg": 189, "battery": 99.99029624999999}
-{"sid": "Ecglevel", "timestamp": "Wed Nov 20 14:00:26 2019", "ecg": 135, "battery": 99.98889987499999}
-{"sid": "Ecglevel", "timestamp": "Wed Nov 20 14:01:26 2019", "ecg": 135, "battery": 99.98750349999999}
-{"sid": "Ecglevel", "timestamp": "Wed Nov 20 14:03:26 2019", "ecg": 124, "battery": 99.98471074999999}
+{"sid": "Ecglevel", "timestamp": "Wed Nov 20 17:00:31 2019", "ecg": 187, "battery": 100}
