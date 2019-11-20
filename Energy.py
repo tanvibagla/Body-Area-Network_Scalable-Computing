@@ -58,7 +58,9 @@ class Battery(object):
 
     def have_energy(self):
         if self.energy > self.E_MIN:
+            print('Has battery')
             return True
+        print("Doesn't have battery")
         return False
     
     def alert_sensor(self):

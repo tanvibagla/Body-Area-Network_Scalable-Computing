@@ -13,7 +13,9 @@ class TemperatureSensor(Sensor):
         Sensor.__init__(self, power, duty_cycle, data, message_topic, frequency_of_message)
 
     def sensor_data(self):
-        record_data = {'sid': self.message_topic, 'timestamp': time.ctime(time.time()), 'temperature': random.uniform(96.5, 98.7)}
+        record_data = {'sid': self.message_topic, 'timestamp': time.ctime(time.time()), 'temperature': random.uniform(96.5, 98.7),
+                       'battery': self.power
+                       }
         record = json.dumps(record_data)
         print("Temperature data generated")
         print("Data:", record)

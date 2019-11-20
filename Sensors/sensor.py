@@ -29,6 +29,9 @@ class Sensor:
     def send_data(self):
         pass
 
+    def battery_decay_while_idle(self):
+        self.power = self.battery.decrease_energy()
+
     def charging(self):
         pass
 

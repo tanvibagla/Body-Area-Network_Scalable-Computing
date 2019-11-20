@@ -13,7 +13,7 @@ class Pacemaker(Sensor):
         Sensor.__init__(self, power, duty_cycle, data, message_topic, frequency_of_message)
 
     def sensor_data(self):
-        record_data = {'sid': self.message_topic, 'timestamp': [], 'bpm': None}
+        record_data = {'sid': self.message_topic, 'timestamp': [], 'bpm': None, 'battery': self.power}
         # record_data['sid'] = 'Heart Rate'
         record_data['timestamp'] = time.ctime(time.time())
         record_data['bpm'] = random.randint(65, 100)
