@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f2cd72-c9d9-48bb-b0c3-5d06580e64eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sink_Data_Sender/client.py" afterPath="$PROJECT_DIR$/Sink_Data_Sender/client.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sink_Data_Sender/uploads/BodyTemperature_data_User1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sink_Data_Sender/uploads/BpLevel_data_User1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sink_Data_Sender/uploads/EcgLevel_data_User1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sink_Data_Sender/uploads/InsulinLevel_data_User1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sink_Data_Sender/uploads/LacticLevel_data_User1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sink_Data_Sender/uploads/OxygenLevel_data_User1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sink_Data_Sender/uploads/Pacemaker_data_User1.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Energy.py" afterPath="$PROJECT_DIR$/Energy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sensors/All_Sensors.py" afterPath="$PROJECT_DIR$/Sensors/All_Sensors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sensors/bloodoxylevel_sensor.py" afterPath="$PROJECT_DIR$/Sensors/bloodoxylevel_sensor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sensors/bloodpressure_sensor.py" afterPath="$PROJECT_DIR$/Sensors/bloodpressure_sensor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sensors/dehydration_sensor.py" afterPath="$PROJECT_DIR$/Sensors/dehydration_sensor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sensors/ecglevel_sensor.py" afterPath="$PROJECT_DIR$/Sensors/ecglevel_sensor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sensors/eeg_sensor.py" afterPath="$PROJECT_DIR$/Sensors/eeg_sensor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sensors/emg_sensor.py" afterPath="$PROJECT_DIR$/Sensors/emg_sensor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sensors/lacticacid_sensor.py" afterPath="$PROJECT_DIR$/Sensors/lacticacid_sensor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sensors/pacemaker.py" afterPath="$PROJECT_DIR$/Sensors/pacemaker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sensors/sensor.py" afterPath="$PROJECT_DIR$/Sensors/sensor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sensors/sugarlevel_sensor.py" afterPath="$PROJECT_DIR$/Sensors/sugarlevel_sensor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sensors/temperature_sensor.py" afterPath="$PROJECT_DIR$/Sensors/temperature_sensor.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,97 +37,119 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sink_Data_Sender/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-              <folding>
-                <element signature="e#85#98#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="receiver.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Receiver/receiver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="receiver2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Receiver/receiver2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2970">
-              <caret line="94" column="24" lean-forward="false" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
-              <folding>
-                <element signature="e#84#95#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sink_Data_Sender/server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Const/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sender.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sender/sender.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sensor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sensors/sensor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-825">
-              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="All_Sensors.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sensors/All_Sensors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3795">
-              <caret line="115" column="5" lean-forward="false" selection-start-line="107" selection-start-column="2" selection-end-line="115" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pacemaker.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sensors/pacemaker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="41" column="49" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="41" selection-end-column="49" />
+            <state relative-caret-position="582">
+              <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sugarlevel_sensor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sensors/sugarlevel_sensor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temperature_sensor.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sensors/temperature_sensor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bloodoxylevel_sensor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sensors/bloodoxylevel_sensor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bloodpressure_sensor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sensors/bloodpressure_sensor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="49" column="43" lean-forward="false" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dehydration_sensor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sensors/dehydration_sensor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ecglevel_sensor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sensors/ecglevel_sensor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eeg_sensor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sensors/eeg_sensor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="emg_sensor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sensors/emg_sensor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lacticacid_sensor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sensors/lacticacid_sensor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -148,13 +190,9 @@
         <option value="$PROJECT_DIR$/Sink_Data_Sender/uploads/BodyTemperature_data.json" />
         <option value="$PROJECT_DIR$/Receiver/BodyTemperature_data.json" />
         <option value="$PROJECT_DIR$/Receiver/InsulinLevel_data.json" />
-        <option value="$PROJECT_DIR$/Sensors/ecglevel_sensor.py" />
-        <option value="$PROJECT_DIR$/Sensors/sugarlevel_sensor.py" />
         <option value="$PROJECT_DIR$/Receiver/BpLevel_data.json" />
         <option value="$PROJECT_DIR$/Receiver/OxygenLevel_data.json" />
         <option value="$PROJECT_DIR$/Receiver/Pacemaker_Data.json" />
-        <option value="$PROJECT_DIR$/Energy.py" />
-        <option value="$PROJECT_DIR$/Sensors/lacticacid_sensor.py" />
         <option value="$PROJECT_DIR$/Receiver/InsulinLevel_data_User1.json" />
         <option value="$PROJECT_DIR$/Receiver/EcgLevel_data_User1.json" />
         <option value="$PROJECT_DIR$/Receiver/OxygenLevel_data_User1.json" />
@@ -166,18 +204,25 @@
         <option value="$PROJECT_DIR$/obcrypting.py" />
         <option value="$PROJECT_DIR$/Receiver/receiver.py" />
         <option value="$PROJECT_DIR$/Sender/sender.py" />
-        <option value="$PROJECT_DIR$/Sensors/bloodoxylevel_sensor.py" />
-        <option value="$PROJECT_DIR$/Sensors/bloodpressure_sensor.py" />
-        <option value="$PROJECT_DIR$/Sensors/temperature_sensor.py" />
         <option value="$PROJECT_DIR$/Receiver/BodyTemperature_data_User1.json" />
         <option value="$PROJECT_DIR$/Receiver/BpLevel_data_User1.json" />
         <option value="$PROJECT_DIR$/Const/config.py" />
         <option value="$PROJECT_DIR$/Receiver/receiver2.py" />
-        <option value="$PROJECT_DIR$/Sensors/sensor.py" />
-        <option value="$PROJECT_DIR$/Sensors/pacemaker.py" />
-        <option value="$PROJECT_DIR$/Sensors/All_Sensors.py" />
-        <option value="$PROJECT_DIR$/Receiver/Pacemaker_data_User1.json" />
         <option value="$PROJECT_DIR$/Sink_Data_Sender/client.py" />
+        <option value="$PROJECT_DIR$/Energy.py" />
+        <option value="$PROJECT_DIR$/Receiver/Pacemaker_data_User1.json" />
+        <option value="$PROJECT_DIR$/Sensors/All_Sensors.py" />
+        <option value="$PROJECT_DIR$/Sensors/pacemaker.py" />
+        <option value="$PROJECT_DIR$/Sensors/sensor.py" />
+        <option value="$PROJECT_DIR$/Sensors/bloodoxylevel_sensor.py" />
+        <option value="$PROJECT_DIR$/Sensors/bloodpressure_sensor.py" />
+        <option value="$PROJECT_DIR$/Sensors/dehydration_sensor.py" />
+        <option value="$PROJECT_DIR$/Sensors/ecglevel_sensor.py" />
+        <option value="$PROJECT_DIR$/Sensors/eeg_sensor.py" />
+        <option value="$PROJECT_DIR$/Sensors/emg_sensor.py" />
+        <option value="$PROJECT_DIR$/Sensors/lacticacid_sensor.py" />
+        <option value="$PROJECT_DIR$/Sensors/sugarlevel_sensor.py" />
+        <option value="$PROJECT_DIR$/Sensors/temperature_sensor.py" />
       </list>
     </option>
   </component>
@@ -300,7 +345,7 @@
       <recent name="C:\Users\User\Desktop\SEM-1\Scalable\Scalable-Project4\Receiver" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.server">
+  <component name="RunManager" selected="Python.All_Sensors">
     <configuration default="false" name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -529,11 +574,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.client" />
-        <item index="1" class="java.lang.String" itemvalue="Python.server" />
+        <item index="0" class="java.lang.String" itemvalue="Python.All_Sensors" />
+        <item index="1" class="java.lang.String" itemvalue="Python.receiver2" />
         <item index="2" class="java.lang.String" itemvalue="Python.receiver" />
-        <item index="3" class="java.lang.String" itemvalue="Python.All_Sensors" />
-        <item index="4" class="java.lang.String" itemvalue="Python.receiver2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.client" />
+        <item index="4" class="java.lang.String" itemvalue="Python.server" />
       </list>
     </recent_temporary>
   </component>
@@ -581,8 +626,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sink_Data_Sender/16pm.json" />
-    <entry file="file://$PROJECT_DIR$/Sink_Data_Sender/4194304pm.json" />
     <entry file="file://$PROJECT_DIR$/Sink_Data_Sender/sink_receive.py" />
     <entry file="file://$PROJECT_DIR$/Sink_Data_Sender/1pm.json" />
     <entry file="file://$PROJECT_DIR$/Sink_Data_Sender/2048pm.json" />
@@ -671,22 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sensors/ecglevel_sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sensors/lacticacid_sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Receiver/OxygenLevel_data_User1.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -743,14 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Energy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="65" column="12" lean-forward="false" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/obcrypting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -771,46 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sensors/emg_sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sensors/bloodoxylevel_sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sensors/sugarlevel_sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sensors/temperature_sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="21" column="64" lean-forward="false" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sensors/bloodpressure_sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="25" column="79" lean-forward="false" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
           <folding />
         </state>
       </provider>
@@ -839,42 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sensors/pacemaker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="41" column="49" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="41" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sensors/All_Sensors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3795">
-          <caret line="115" column="5" lean-forward="false" selection-start-line="107" selection-start-column="2" selection-end-line="115" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sensors/sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-825">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Receiver/Pacemaker_data_User1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13266">
-          <caret line="402" column="87" lean-forward="false" selection-start-line="402" selection-start-column="87" selection-end-line="402" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Receiver/receiver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -893,14 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sender/sender.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sink_Data_Sender/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -911,10 +846,154 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sink_Data_Sender/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="582">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="e#85#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sender/sender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Energy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Receiver/Pacemaker_data_User1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="35" column="87" lean-forward="false" selection-start-line="35" selection-start-column="87" selection-end-line="35" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sensors/All_Sensors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sensors/sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="45" column="49" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="45" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sensors/bloodoxylevel_sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sensors/bloodpressure_sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="49" column="43" lean-forward="false" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sensors/dehydration_sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sensors/ecglevel_sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sensors/eeg_sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sensors/emg_sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sensors/lacticacid_sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sensors/pacemaker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sensors/sugarlevel_sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sensors/temperature_sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

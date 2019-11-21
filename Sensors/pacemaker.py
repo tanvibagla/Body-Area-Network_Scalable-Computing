@@ -24,20 +24,20 @@ class Pacemaker(Sensor):
         print("Data:", record)
         return record
 
-    # def send_data(self):
-    #     try:
-    #         self.data = self.sensor_data()
-    #         # send data
-    #         sdr.send(self.data, PORT)
-    #         self.power = self.battery.decrease_trans_energy(sys.getsizeof(self.data))
-    #         print("size: ", sys.getsizeof(self.data))
-    #         print("energy level: ", self.power)
-    #     except:
-    #         print("Server not available")
-    #         self.data = self.sensor_data()
-    #         # send data
-    #         sdr.send(self.data, PORT_SINK_2)
-    #         self.power = self.battery.decrease_trans_energy(sys.getsizeof(self.data))
-    #         print("size: ", sys.getsizeof(self.data))
-    #         print("energy level: ", self.power)
+    def send_data(self):
+        try:
+            self.data = self.sensor_data()
+            # send data
+            sdr.send(self.data, PORT)
+            self.power = self.battery.decrease_trans_energy(sys.getsizeof(self.data))
+            print("size: ", sys.getsizeof(self.data))
+            print("energy level: ", self.power)
+        except:
+            print("Server not available")
+            self.data = self.sensor_data()
+            # send data
+            sdr.send(self.data, PORT_SINK_2)
+            self.power = self.battery.decrease_trans_energy(sys.getsizeof(self.data))
+            print("size: ", sys.getsizeof(self.data))
+            print("energy level: ", self.power)
 

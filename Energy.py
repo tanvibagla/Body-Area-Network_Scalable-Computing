@@ -11,7 +11,7 @@ class Battery(object):
     P_TX = 0.084  # Watts
     P_RX = 0.073  # Watts
 
-    E_INIT = 0.49  # Joules
+    E_INIT = 0.46  # Joules
     E_MIN = 0.5   # Joules  to operate
 
     # charging  rate
@@ -71,7 +71,7 @@ class Battery(object):
         
     def charging(self):
         print('power type: ', self.power_type)
-        if self.power_type == 0 and self.energy<0.505:
+        if self.power_type == 0 and self.energy<99:
             self.energy += self.P_CHARGING
             print('energy: ', self.energy)
             return self.energy

@@ -1,5 +1,6 @@
 import time, threading
- 
+
+from Energy import Battery
 from Sensors.pacemaker import Pacemaker
 from Sensors.temperature_sensor import TemperatureSensor
 from Sensors.bloodoxylevel_sensor import OxySensor
@@ -93,27 +94,29 @@ def dehyd_send_data():
     threading.Timer(1, dehyd.battery.charging).start()        
 
 
-pm = Pacemaker(100, 10, {}, 'HeartRate', 1)
-tmp = TemperatureSensor(100, 20, {}, 'BodyTemperature', 1)
-ins= InsulinSensor(100,30,{}, 'InsulinLevel', 1)
-oxy= OxySensor(100,40,{},'Oxygenlevel', 1)
-bp= BpSensor(100,50,{},'BPlevel',1)
-ecg= EcgSensor(100,60,{},'Ecglevel',1)
-lactic= LacticSensor(100,70,{},'Lacticlevel',1)
-eeg= EegSensor(100,80,{},'Eeglevel',1)
-emg= EmgSensor(100,90,{},'Emglevel',1)
-dehyd= DehydSensor(100,100,{},'Dehydlevel',1)
+btry = Battery(sensor_type='H')
+
+pm = Pacemaker(btry.E_INIT, 10, {}, 'HeartRate', 1)
+tmp = TemperatureSensor(btry.E_INIT, 20, {}, 'BodyTemperature', 1)
+ins= InsulinSensor(btry.E_INIT,30,{}, 'InsulinLevel', 1)
+oxy= OxySensor(btry.E_INIT,40,{},'Oxygenlevel', 1)
+bp= BpSensor(btry.E_INIT,50,{},'BPlevel',1)
+ecg= EcgSensor(btry.E_INIT,60,{},'Ecglevel',1)
+lactic= LacticSensor(btry.E_INIT,70,{},'Lacticlevel',1)
+eeg= EegSensor(btry.E_INIT,80,{},'Eeglevel',1)
+emg= EmgSensor(btry.E_INIT,90,{},'Emglevel',1)
+dehyd= DehydSensor(btry.E_INIT,100,{},'Dehydlevel',1)
 
 pm_send_data()
-# temp_send_data()
-# ins_send_data()
-# oxy_send_data()
-# bp_send_data()
-# ecg_send_data()
-# lactic_send_data()
-# eeg_send_data()
-# emg_send_data()
-# dehyd_send_data()
+temp_send_data()
+ins_send_data()
+oxy_send_data()
+bp_send_data()
+ecg_send_data()
+lactic_send_data()
+eeg_send_data()
+emg_send_data()
+dehyd_send_data()
 
 # import time, threading
 # def foo():
