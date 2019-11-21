@@ -13,7 +13,7 @@ import del_prog
 
 from buffer import Buffer
 
-HOST = 'localhost'
+HOST = '10.6.41.228'
 PORT = 58575
 path = '..\\Receiver\\'
 
