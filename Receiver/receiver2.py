@@ -9,7 +9,7 @@ import socket  # Import socket module
 # netstat -ano| find portnum #output port status with PID
 # taskkill /F /PID <process ID>
 import threading
-from Const.config import PORT
+from Const.config import PORT_SINK_2
 
 
 def make_connection(port):
@@ -92,4 +92,4 @@ def receive_data(port):
 
 #
 # def receive():
-receive_data(PORT)
+receive_data(PORT_SINK_2)

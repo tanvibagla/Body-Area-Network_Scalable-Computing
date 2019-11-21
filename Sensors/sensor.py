@@ -1,8 +1,10 @@
 import time
 import logging
+import sys
+import Sender.sender as sdr
 
 from Energy import Battery
-# from Const.config import DECAY_RATE, DECAY_WHILE_DATA_TRANSFER
+from Const.config import PORT, PORT_SINK_2
 
 
 class Sensor:
@@ -27,7 +29,21 @@ class Sensor:
         # self.power = self.power_decay() - DECAY_WHILE_DATA_TRANSFER * self.power
 
     def send_data(self):
-        pass
+        try:
+            self.data = self.sensor_data()
+            # send data
+            sdr.send(self.data, PORT)
+            self.power = self.battery.decrease_trans_energy(sys.getsizeof(self.data))
+            print("size: ", sys.getsizeof(self.data))
+            print("energy level: ", self.power)
+        except:
+            print("Server not available")
+            self.data = self.sensor_data()
+            # send data
+            sdr.send(self.data, PORT_SINK_2)
+            self.power = self.battery.decrease_trans_energy(sys.getsizeof(self.data))
+            print("size: ", sys.getsizeof(self.data))
+            print("energy level: ", self.power)
 
     def battery_decay_while_idle(self):
         self.power = self.battery.decrease_energy()

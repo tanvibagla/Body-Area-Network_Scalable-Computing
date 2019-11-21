@@ -16,6 +16,8 @@ class OxySensor(Sensor):
         record_data = {'sid': self.message_topic, 'timestamp': time.ctime(time.time()), 'oxygen': random.randint(80, 100),
                        'battery': self.power
                        }
+        if(record_data['oxygen'] < 80 or record_data['oxygen']):
+            record_data['alert'] = 'Blood Oxygen level is dropping'
         record = json.dumps(record_data)
         print("Oxygen level data generated")
         print("Data:", record)

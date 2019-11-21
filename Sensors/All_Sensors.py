@@ -105,15 +105,15 @@ emg= EmgSensor(100,90,{},'Emglevel',1)
 dehyd= DehydSensor(100,100,{},'Dehydlevel',1)
 
 pm_send_data()
-temp_send_data()
-ins_send_data()
-oxy_send_data()
-bp_send_data()
-ecg_send_data()
-lactic_send_data()
-eeg_send_data()
-emg_send_data()
-dehyd_send_data
+# temp_send_data()
+# ins_send_data()
+# oxy_send_data()
+# bp_send_data()
+# ecg_send_data()
+# lactic_send_data()
+# eeg_send_data()
+# emg_send_data()
+# dehyd_send_data()
 
 # import time, threading
 # def foo():

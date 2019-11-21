@@ -3,25 +3,21 @@ import random
 import json
 import sys
 import Sender.sender as sdr
-
+ 
 from threading import Timer
 from Sensors.sensor import Sensor
 from Const.config import PORT
 
-class TemperatureSensor(Sensor):
+class EegSensor(Sensor):
     def __init__(self, power, duty_cycle, data, message_topic, frequency_of_message):
         Sensor.__init__(self, power, duty_cycle, data, message_topic, frequency_of_message)
 
     def sensor_data(self):
-        record_data = {'sid': self.message_topic, 'timestamp': time.ctime(time.time()), 'temperature': random.uniform(95, 102),
+        record_data = {'sid': self.message_topic, 'timestamp': time.ctime(time.time()), 'eeg': random.uniform(7,20),
                        'battery': self.power
                        }
-        if(record_data['temperature'] < 97):
-            record_data['alert'] = 'User might be suffering from Hypothermia'
-        elif(record_data['temperature'] > 100.4):
-            record_data['alert'] = 'User is suffering from fever'
         record = json.dumps(record_data)
-        print("Temperature data generated")
+        print("Eeg data generated")
         print("Data:", record)
         return record
 
