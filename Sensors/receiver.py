@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Nov 12 17:14:04 2019
-
+ 
 @author: yesh2
 """
 import json
@@ -9,7 +9,7 @@ import socket                   # Import socket module
 #netstat -ano| find portnum #output port status with PID
 #taskkill /F /PID <process ID>
 import threading
-from Const.config import PACEMAKER_PORT, TEMP_PORT, INSULIN_PORT,OXYLEVEL_PORT,BP_PORT,ECGLEVEL_PORT,LACTIC_PORT
+from Const.config import PORT
 
 def make_connection(port):
     s = socket.socket()  # Create a socket object
@@ -41,19 +41,25 @@ def receive_data(port):
         data = data.decode()
         data = json.loads(data)
         if data['sid'] == 'HeartRate':
-            filename = 'Pacemaker_Data.json'
+            filename = 'Pacemaker_data_User1.json'
         elif data['sid'] == 'BodyTemperature':
-            filename = 'BodyTemperature_data.json'
+            filename = 'BodyTemperature_data_User1.json'
         elif data['sid'] == 'InsulinLevel':
-            filename = 'InsulinLevel_data.json'
+            filename = 'InsulinLevel_data_User1.json'
         elif data['sid'] == 'Oxygenlevel':
-            filename = 'OxygenLevel_data.json'
+            filename = 'OxygenLevel_data_User1.json'
         elif data['sid'] == 'BPlevel':
-            filename = 'BpLevel_data.json'
+            filename = 'BpLevel_data_User1.json'
         elif data['sid'] == 'Ecglevel':
-            filename = 'EcgLevel_data.json'
+            filename = 'EcgLevel_data_User1.json'
         elif data['sid'] == 'Lacticlevel':
-            filename = 'EcgLevel_data.json'        
+            filename = 'LacticLevel_data_User1.json'
+        elif data['sid'] == 'Eeglevel':
+            filename = 'EegLevel_data_User1.json'
+        elif data['sid'] == 'Emglevel':
+            filename = 'EmgLevel_data_User1.json'
+        elif data['sid'] == 'Dehydlevel':
+            filename = 'DehydLevel_data_User1.json'        
         print('data type: ', type(data))
         with open(filename, '+a') as f:
             print('file opened')
@@ -81,11 +87,5 @@ def receive_data(port):
     # def listen_port():
 #
 # def receive():
-receive_data(PACEMAKER_PORT)
-receive_data(TEMP_PORT)
-receive_data(INSULIN_PORT)
-receive_data(OXYLEVEL_PORT)
-receive_data(BP_PORT)
-receive_data(ECGLEVEL_PORT)
-receive_data(LACTIC_PORT)
-# receive_data(TEMP_PORT)
+receive_data(PORT)
+

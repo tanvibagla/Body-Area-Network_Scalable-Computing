@@ -8,11 +8,13 @@ Created on Mon Nov 18 15:19:29 2019
 import socket
 import threading
 import os
+import del_prog
 
 from buffer import Buffer
 
 HOST = 'localhost'
 PORT = 58575
+path = '..\\Receiver\\'
 
 def send_files():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -24,7 +26,8 @@ def send_files():
 
         #files = input('Enter file(s) to send: ')
         #files_to_send = files.split()
-        files_to_send = os.listdir('..\\Receiver\\')
+        #path = '..\\Receiver\\'
+        files_to_send = os.listdir(path)
         print('files: ', files_to_send)
         for file_name in files_to_send:
             if '.json' in file_name:
@@ -32,12 +35,16 @@ def send_files():
                 sbuf.put_utf8(hash_type)
                 sbuf.put_utf8(file_name)
 
-                file_size = os.path.getsize('..\\Receiver\\'+file_name)
+                file_size = os.path.getsize(path+file_name)
                 sbuf.put_utf8(str(file_size))
 
-                with open('..\\Receiver\\'+file_name, 'rb') as f:
+                with open(path+file_name, 'rb') as f:
                     sbuf.put_bytes(f.read())
                 print('File Sent')
-    threading.Timer(5, send_files).start()
+                del_prog.del_files(path,file_name)
+    threading.Timer(60, send_files).start()
+    
+    #s.close()
 
 send_files()
+#threading.Timer(5, send_files).start()
